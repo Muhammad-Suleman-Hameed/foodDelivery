@@ -33,3 +33,7 @@ Thumbs.db
 # Metro & React Native caches
 .metro-health-check*
 *.tsbuildinfo
+
+# Local Agent instructions (kept locally, not pushed to remote)
+AGENTS.md
+agent.md

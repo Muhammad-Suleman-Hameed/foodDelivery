@@ -6,17 +6,11 @@ Designed with a modern, high-contrast visual identity inspired by industry stand
 
 ---
 
-## Demo Video
+## Demo Video Walkthroughs
 
-<!-- 
-To embed your demo video on GitHub:
-1. Upload your .mp4 or .mov file directly to a GitHub Release or drag-and-drop into an Issue / Discussion description.
-2. Copy the generated video link and paste it below:
--->
-
-[![Watch Demo Video](https://img.shields.io/badge/Demo_Video-Watch_Walkthrough-D70F64?style=for-the-badge&logo=youtube)](https://github.com/Muhammad-Suleman-Hameed/foodDelivery)
-
-> **Tip:** You can also drop your demo `.mp4` into `docs/demo.mp4` and embed it using `<video src="docs/demo.mp4" controls width="100%"></video>`.
+| Customer Flow (Browse, Cart & Live Tracking) | Restaurant Owner Flow (Orders, Filters & Customer Access) |
+|:---:|:---:|
+| <video src="https://github.com/Muhammad-Suleman-Hameed/foodDelivery/raw/main/docs/videos/customer-flow.mp4" controls="controls" muted="muted" width="100%"></video><br/><sub>Direct Link: [`customer-flow.mp4`](docs/videos/customer-flow.mp4)</sub> | <video src="https://github.com/Muhammad-Suleman-Hameed/foodDelivery/raw/main/docs/videos/owner-flow.mp4" controls="controls" muted="muted" width="100%"></video><br/><sub>Direct Link: [`owner-flow.mp4`](docs/videos/owner-flow.mp4)</sub> |
 
 ---
 
