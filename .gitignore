@@ -1,0 +1,35 @@
+# Root .gitignore for foodDelivery monorepo
+
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+dist/
+*/dist/
+build/
+*/build/
+.bundle/
+*/.bundle/
+vendor/
+*/vendor/
+Pods/
+*/ios/Pods/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS & IDE
+.DS_Store
+*/.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Metro & React Native caches
+.metro-health-check*
+*.tsbuildinfo

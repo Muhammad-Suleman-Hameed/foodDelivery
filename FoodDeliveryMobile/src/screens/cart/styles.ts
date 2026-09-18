@@ -1,0 +1,188 @@
+import { StyleSheet } from 'react-native';
+import Colors from '../../theme/colors';
+import Fonts from '../../theme/fonts';
+import { hp, wp } from '../../theme/responsive';
+
+export const styles = StyleSheet.create({
+  safeArea: {
+    flex: 1,
+    backgroundColor: Colors.backgroundLight,
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: wp(4),
+    paddingVertical: hp(1.5),
+    backgroundColor: Colors.white,
+    borderBottomWidth: 1,
+    borderBottomColor: Colors.border,
+  },
+  headerTitleContainer: {
+    alignItems: 'center',
+  },
+  backButton: {
+    width: wp(10),
+    height: wp(10),
+    borderRadius: wp(5),
+    backgroundColor: Colors.surfaceGray,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  backIcon: {
+    fontSize: Fonts.normalize(20),
+    color: Colors.charcoal,
+    fontWeight: '700',
+  },
+  clearText: {
+    color: Colors.error,
+    fontSize: Fonts.normalize(13),
+    fontWeight: '600',
+  },
+  scrollContent: {
+    padding: wp(4),
+    paddingBottom: hp(12),
+  },
+  restaurantCard: {
+    backgroundColor: Colors.white,
+    borderRadius: 14,
+    padding: wp(3.5),
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: hp(2),
+    borderWidth: 1,
+    borderColor: Colors.border,
+  },
+  restaurantIcon: {
+    fontSize: Fonts.normalize(24),
+    marginRight: wp(3),
+  },
+  restaurantInfo: {
+    flex: 1,
+  },
+  sectionTitle: {
+    fontSize: Fonts.normalize(15),
+    marginBottom: hp(1.5),
+  },
+  cartItemCard: {
+    backgroundColor: Colors.white,
+    borderRadius: 14,
+    padding: wp(3.5),
+    marginBottom: hp(1.2),
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    borderWidth: 1,
+    borderColor: Colors.border,
+  },
+  itemLeft: {
+    flex: 1,
+    paddingRight: wp(3),
+  },
+  itemName: {
+    fontSize: Fonts.normalize(14),
+    marginBottom: hp(0.3),
+  },
+  itemPrice: {
+    fontSize: Fonts.normalize(13),
+  },
+  stepperContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: Colors.surfaceGray,
+    borderRadius: 20,
+    paddingHorizontal: wp(1.5),
+    paddingVertical: hp(0.4),
+    gap: wp(2.5),
+  },
+  stepperButton: {
+    width: wp(7.5),
+    height: wp(7.5),
+    borderRadius: wp(3.75),
+    backgroundColor: Colors.white,
+    alignItems: 'center',
+    justifyContent: 'center',
+    shadowColor: Colors.shadow,
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
+    elevation: 2,
+  },
+  stepperActionText: {
+    fontSize: Fonts.normalize(16),
+    fontWeight: '700',
+    color: Colors.primary,
+    lineHeight: Fonts.normalize(18),
+  },
+  quantityText: {
+    fontSize: Fonts.normalize(14),
+    fontWeight: '700',
+    color: Colors.charcoal,
+    minWidth: wp(4),
+    textAlign: 'center',
+  },
+  summaryCard: {
+    backgroundColor: Colors.white,
+    borderRadius: 16,
+    padding: wp(4),
+    marginTop: hp(2),
+    borderWidth: 1,
+    borderColor: Colors.border,
+  },
+  summaryTitle: {
+    fontSize: Fonts.normalize(15),
+    marginBottom: hp(1.5),
+  },
+  summaryRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: hp(1),
+  },
+  divider: {
+    height: 1,
+    backgroundColor: Colors.border,
+    marginVertical: hp(1),
+  },
+  totalRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginTop: hp(0.5),
+  },
+  emptyContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: hp(12),
+  },
+  emptyEmoji: {
+    fontSize: Fonts.normalize(56),
+    marginBottom: hp(2),
+  },
+  emptyTitle: {
+    fontSize: Fonts.normalize(18),
+    marginBottom: hp(0.8),
+  },
+  emptyDesc: {
+    fontSize: Fonts.normalize(13),
+    textAlign: 'center',
+    paddingHorizontal: wp(8),
+  },
+  bottomBar: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    backgroundColor: Colors.white,
+    paddingHorizontal: wp(4),
+    paddingTop: hp(1.5),
+    paddingBottom: hp(3),
+    borderTopWidth: 1,
+    borderTopColor: Colors.border,
+    shadowColor: Colors.shadow,
+    shadowOffset: { width: 0, height: -3 },
+    shadowOpacity: 0.08,
+    shadowRadius: 6,
+    elevation: 8,
+  },
+});
